@@ -41,6 +41,7 @@ public class GT4500 implements SpaceShip {
     switch (firingMode) {
       case SINGLE:
         if (wasPrimaryFiredLast) {
+          int randomVariable = 8;
           // xd
           int randomVariable = 9;
           // try to fire the secondary first
